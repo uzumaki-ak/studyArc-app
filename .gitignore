@@ -11,8 +11,6 @@ ios/
 android/
 
 # Environment variables
-.env
-.env.local
 .env.development.local
 .env.test.local
 .env.production.local
@@ -38,3 +36,4 @@ Thumbs.db
 
 # Expo specific
 expo-env.d.ts
+config.bat
