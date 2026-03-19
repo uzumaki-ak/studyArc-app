@@ -1,0 +1,43 @@
+{
+  "expo": {
+    "name": "StudyArc",
+    "slug": "studyarc",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "automatic",
+    "scheme": "studyarc",
+    "splash": {
+      "backgroundColor": "#0a0a0a"
+    },
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "com.studyarc.app",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "Used for voice answers in quiz mode"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#0a0a0a"
+      },
+      "package": "com.studyarc.app",
+      "permissions": [
+        "RECORD_AUDIO",
+        "VIBRATE"
+      ]
+    },
+    "plugins": [
+      "expo-router",
+      "expo-font",
+      [
+        "expo-notifications",
+        {
+          "color": "#0a0a0a"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
